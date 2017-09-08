@@ -1,0 +1,28 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: black;
+}
+
+canvas {
+  background-color: black;
+  transform: scaleY(-1);
+}
+
+.tittle {
+  position: absolute;
+  left: 70px;
+  bottom: 50px;
+  color: white;
+  font-family: 微軟正黑體;
+}
+
+.time {
+  bottom: 50px;
+  color: white;
+  font-size: 25px;
+}
